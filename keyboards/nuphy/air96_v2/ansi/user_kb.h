@@ -111,7 +111,7 @@ typedef enum {
 #define T_MIN                     (100 * 60)
 #define DEEP_SLEEP_TIME           4
 
-#define RGB_MATRIX_GAME_MODE      RGB_MATRIX_GRADIENT_LEFT_RIGHT
+#define RGB_MATRIX_GAME_MODE      RGB_MATRIX_SOLID_REACTIVE_MULTINEXUS
 #define SIDE_MATRIX_GAME_MODE     4
 #define SOCD_KEYS                 KC_A, KC_D, KC_LEFT, KC_RIGHT
 
