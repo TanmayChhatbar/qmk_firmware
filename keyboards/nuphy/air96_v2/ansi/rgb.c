@@ -747,10 +747,10 @@ void rgb_matrix_step_game_mode(uint8_t step) {
     if (step) {
         user_config.game_rgb_mod++;
         if (user_config.game_rgb_mod > RGB_MATRIX_CUSTOM_GAME_KEYS) { user_config.game_rgb_mod = 1; }
-        else if (user_config.game_rgb_mod > 3) { user_config.game_rgb_mod = RGB_MATRIX_CUSTOM_GAME_KEYS; }
+        else if (user_config.game_rgb_mod > RGB_MATRIX_CUSTOM_GAME_KEYS) { user_config.game_rgb_mod = RGB_MATRIX_CUSTOM_GAME_KEYS; }
     } else {
         user_config.game_rgb_mod--;
-        if (user_config.game_rgb_mod > 3) { user_config.game_rgb_mod = 3; }
+        if (user_config.game_rgb_mod > RGB_MATRIX_CUSTOM_GAME_KEYS) { user_config.game_rgb_mod = RGB_MATRIX_CUSTOM_GAME_KEYS; }
         else if (user_config.game_rgb_mod < 1) { user_config.game_rgb_mod = RGB_MATRIX_CUSTOM_GAME_KEYS; }
     }
 
