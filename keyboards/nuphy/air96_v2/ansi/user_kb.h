@@ -113,7 +113,7 @@ typedef enum {
 
 #define RGB_MATRIX_GAME_MODE      RGB_MATRIX_SOLID_REACTIVE_MULTINEXUS
 #define SIDE_MATRIX_GAME_MODE     4
-#define SOCD_KEYS                 KC_A, KC_D, KC_LEFT, KC_RIGHT
+#define SOCD_KEYS                 KC_A, KC_D, KC_LEFT, KC_RIGHT, KC_W, KC_S
 
 // #define    CAPS_LED               55
 // #define    LSHIFT_LED             71
