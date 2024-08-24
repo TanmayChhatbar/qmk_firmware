@@ -648,9 +648,9 @@ void game_config_reset(uint8_t save_to_eeprom) {
     user_config.game_side_colour       = SIDE_MATRIX_GAME_MODE;
     user_config.game_side_light        = 2;
     user_config.game_rgb_mod           = RGB_MATRIX_GAME_MODE;
-    user_config.game_rgb_val           = RGB_MATRIX_DEFAULT_VAL;
-    user_config.game_rgb_hue           = RGB_MATRIX_DEFAULT_HUE;
-    user_config.game_rgb_sat           = RGB_MATRIX_DEFAULT_SAT;
+    user_config.game_rgb_val           = RGB_MATRIX_GAME_DEFAULT_VAL;
+    user_config.game_rgb_hue           = RGB_MATRIX_GAME_DEFAULT_HUE;
+    user_config.game_rgb_sat           = RGB_MATRIX_GAME_DEFAULT_SAT;
     user_config.game_debounce_ms       = DEBOUNCE;
     user_config.game_debounce_type     = 1;
     if (save_to_eeprom) { eeconfig_update_kb_datablock(&user_config); }
